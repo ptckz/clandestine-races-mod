@@ -1,4 +1,4 @@
-# Natives confirmados (RedLua\natives.json)
+﻿# Natives confirmados (RedLua\natives.json)
 
 Conferidos no `natives.json` do RedLua v0.6.4 instalado na pasta do jogo. Não usar nomes que não estejam nesta lista sem verificar antes.
 
@@ -18,5 +18,3 @@ Conferidos no `natives.json` do RedLua v0.6.4 instalado na pasta do jogo. Não u
 | Retângulo na tela | `DRAW_RECT` | `x, y, w, h, r, g, b, a, p8, p9` | |
 | Controles | `IS_CONTROL_JUST_PRESSED`, `GET_CONTROL_NORMAL` | `int control, Hash action` | `BOOL` / `float` |
 | Limpeza | `DELETE_PED`, `SET_PED_AS_NO_LONGER_NEEDED`, `SET_ENTITY_AS_MISSION_ENTITY` | | |
-
-Ainda não confirmados: escala e fonte do texto na tela (não encontrei natives com esses nomes). Se o painel de apostas precisar de texto maior, confirmar antes.
