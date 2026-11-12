@@ -1,0 +1,14 @@
+{
+  "name": "clandestineraces",
+  "version": "1.0.0",
+  "description": "Testes unitarios do mod ClandestineRaces (RDR2) com fengari",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "dependencies": {
+    "fengari": "0.1.5"
+  },
+  "private": true
+}

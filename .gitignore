@@ -8,3 +8,4 @@ settings*.json
 .idea/
 Thumbs.db
 desktop.ini
+node_modules/
