@@ -1,28 +1,6 @@
-# ClandestineRaces (RDR2, single-player)
+# Natives confirmados (RedLua\natives.json)
 
-Mod de corridas clandestinas de cavalo com apostas, escrito em Lua para o RedLua.
-
-## Estrutura
-
-- `Scripts/ClandestineRaces.lua`: o script. O RedLua só carrega arquivos `.lua` soltos na pasta `RedLua\Scripts\`. Pastas com `main.lua` não são carregadas (testado em 11/11/2026).
-- `.gitignore`: exclui logs e arquivos gerados em runtime.
-
-## Status
-
-- Etapa 0 concluída: RedLua v0.6.4 carrega o script, `OnLoad` é executado e o log é gravado (testado no jogo, 11/11/2026).
-- Log do mod: `RedLua\ClandestineRaces.log`. Log do RedLua: `RedLua\Run.log`.
-
-## Instalação (para teste)
-
-1. Instalar o RedLua v0.6.4 na pasta do jogo (`RedLua.asi`, `lua51.dll` e a pasta `RedLua`).
-2. Ativar `"autorun": true` em `RedLua\Settings.json`.
-3. Ativar o log de arquivo em `RedLua\Log.conf` (`TO_FILE = true`, `FILENAME = "RedLua\Run.log"`).
-4. Copiar `Scripts\ClandestineRaces.lua` para `<pasta do jogo>\RedLua\Scripts\`.
-5. Reiniciar o jogo e entrar no mundo.
-
-## Natives confirmados (`RedLua\natives.json`)
-
-Conferidos no arquivo instalado. Não usar nomes que não estejam nesta lista sem verificar antes.
+Conferidos no `natives.json` do RedLua v0.6.4 instalado na pasta do jogo. Não usar nomes que não estejam nesta lista sem verificar antes.
 
 | Uso | Native | Parâmetros | Retorno |
 |---|---|---|---|
@@ -42,9 +20,3 @@ Conferidos no arquivo instalado. Não usar nomes que não estejam nesta lista se
 | Limpeza | `DELETE_PED`, `SET_PED_AS_NO_LONGER_NEEDED`, `SET_ENTITY_AS_MISSION_ENTITY` | | |
 
 Ainda não confirmados: escala e fonte do texto na tela (não encontrei natives com esses nomes). Se o painel de apostas precisar de texto maior, confirmar antes.
-
-## Próximas etapas
-
-Ver o plano em `C:\Users\PHILDEN\.claude\plans\eventual-brewing-walrus.md`.
-
-Só para single-player. Não usar no modo online.
