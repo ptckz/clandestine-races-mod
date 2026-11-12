@@ -1,0 +1,10 @@
+# Logs e arquivos gerados em runtime
+*.log
+settings*.json
+*.tmp
+
+# Arquivos de editor e sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
